@@ -15,17 +15,17 @@ export default function Addinfo({ submitHandler }) {
         placeholder='new information...'
         onChangeText={changeHandler} 
       />
-      <Button color='red' onPress={() => submitHandler(texting)} title='Add information' />
+      <Button color='blue' onPress={() => submitHandler(texting)} title='Add information' />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   input: {
-    marginBottom: 10,
-    paddingHorizontal: 8,
-    paddingVertical: 6,
+    marginBottom: 20,
+    paddingHorizontal: 9,
+    paddingVertical: 7,
     borderBottomWidth: 1,
-    borderBottomColor: 'blue',
+    borderBottomColor: 'red',
   },
 });
